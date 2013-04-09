@@ -1,8 +1,12 @@
 body {
 	margin : 40px;
-	background-image:url('/static/img/bg.png');
-	background-repeat:no-repeat;
-	background-color:#c1deee;
+	background-image:url('/static/img/bg2.gif');
+	/*background-repeat:no-repeat;
+	/*background-color:#c1deee;*/
+
+	background-color: black;
+	/*background-image: url(images/bg2.gif);*/
+	background-repeat: repeat;
 }
 
 #main-container{
