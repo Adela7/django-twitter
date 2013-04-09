@@ -49,6 +49,7 @@ body {
 .twitter-box.bottom-rectangle{
 	border-top-right-radius:0px;
 	margin-top:0px;
+	margin-bottom: -40px;
 	border-top-left-radius:0px;	
 }
 
@@ -74,4 +75,10 @@ body {
 	margin-top:0px;
 	border-radius:0px;	
 	margin-bottom:0px;
+}
+
+textarea{
+	width:265px;
+	height:120px;
+	resize: none;
 }
