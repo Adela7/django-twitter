@@ -18,7 +18,8 @@
     </div>
   </div>
   <div id="login-forms" class="span4 column"> 
-    <form class="form-signin" method="post">
+    <div>
+    <form class=".signin" method="post">
       <input type="hidden" name="post_action" value="sign_in"></input>
       {% csrf_token %}
       <h2 class="form-signin-heading">Please sign in</h2>
@@ -27,9 +28,12 @@
       <input type="text" name="username" class="input-block-level" placeholder="Username">
       {% error_div sing_in_form.errors.password %}
       <input type="password" name="password" class="input-block-level" placeholder="Password">
-      <button class="btn btn-large btn-primary" type="submit" name="post_action" value="sign_in">Sign in</button>
+      <button class="signin_button pull-right" type="submit" name="post_action" value="sign_in">Sign in</button>
     </form>	
-    <form class="form-signin" method="post">
+  </div>
+  <br>
+  <div>
+    <form class=".signup" method="post">
       {% csrf_token %}
       <input type="hidden" name="post_action" value="sign_up"></input>
       <h2 class="form-signin-heading">New to Twitter? Sign up</h2>
@@ -42,8 +46,9 @@
       <input type="password" name="password1" class="input-block-level" placeholder="Password">
       {% error_div sign_up_form.errors.password2 %}
       <input type="password" name="password2" class="input-block-level" placeholder="Repeat Password">
-      <button class="btn btn-large btn-primary" type="submit" name="post_action" value="sign_up">Sign Up</button>
+      <button class="signup_button pull-right" style="color:black;" type="submit" name="post_action" value="sign_up">Sign Up</button>
     </form>	
+   </div> 
   </div>
 </div>
 {% endblock %}

@@ -54,3 +54,83 @@ body {
 	padding:0;
 	bottom:50%;
 }
+
+
+.signin{
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	float: right;
+	margin-top: 40%;
+	padding: 10px;
+	position: inherit;
+	margin-right: 20%;
+}
+.signup{
+	background-color: #e0e0e0;
+	border-radius: 5px;
+	float: right;
+	margin-top: 5%;
+	padding: 10px;
+	position: inherit;
+	margin-right: 20%;
+}
+
+.signup_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23) );
+	background:-moz-linear-gradient( center top, #ffec64 5%, #ffab23 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23');
+	background-color:#ffec64;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	padding:5px 22px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #ffee66;
+}.signup_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64) );
+	background:-moz-linear-gradient( center top, #ffab23 5%, #ffec64 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64');
+	background-color:#ffab23;
+}.signup_button:active {
+	position:relative;
+	top:1px;
+}
+
+.signin_button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #3d94f6), color-stop(1, #1e62d0) );
+	background:-moz-linear-gradient( center top, #3d94f6 5%, #1e62d0 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3d94f6', endColorstr='#1e62d0');
+	background-color:#3d94f6;
+	-moz-border-radius:4px;
+	-webkit-border-radius:4px;
+	border-radius:4px;
+	border:1px solid #337fed;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:normal;
+	padding:5px 7px;
+	text-decoration:none;
+	text-shadow:1px 1px 0px #1570cd;
+}.signin_button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #1e62d0), color-stop(1, #3d94f6) );
+	background:-moz-linear-gradient( center top, #1e62d0 5%, #3d94f6 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#1e62d0', endColorstr='#3d94f6');
+	background-color:#1e62d0;
+}.signin_button:active {
+	position:relative;
+	top:1px;
+}
