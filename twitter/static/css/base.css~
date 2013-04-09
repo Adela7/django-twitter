@@ -1,12 +1,17 @@
 body {
 	margin : 40px;
-	
+<<<<<<< HEAD
+	background-image:url('/static/img/bg2.gif');
 	/*background-repeat:no-repeat;
 	/*background-color:#c1deee;*/
+
+	background-color: black;
 	/*background-image: url(images/bg2.gif);*/
 	background-repeat: repeat;
+=======
 	background-image:url('/static/img/index.jpeg');
 	background-color:#c1deee;
+>>>>>>> 15d807269c723b2d95515b681221b7976198df23
 }
 
 #main-container{
